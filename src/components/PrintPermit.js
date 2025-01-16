@@ -99,7 +99,7 @@ const PrintPermit = () => {
           <div class="modal-content">
             <h3>Universidad de Zamboanga</h3>
             <p style="text-align: center;"><strong>Permit Details</strong></p>
-            <p><strong>Queue Number:</strong> ${userInfo.userName}</p>
+            <p><strong>Student Name:</strong> ${userInfo.userName}</p>
             <p><strong>Permit Status:</strong> ${userInfo ? userInfo.permitStatus : "No data available"}</p>
             <p><strong>Timestamp:</strong> ${userInfo ? new Date(userInfo.timestamp).toLocaleString() : "No timestamp available"}</p>
           </div>
