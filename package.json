@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-qr-barcode-scanner": "^2.0.0",
+    "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
